@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    }
+    .bg1
+    {
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .temp
+    {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: rgb(253, 189, 189);
+    }
+    .temp span.border
+    {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: rgb(226, 226, 226);
+        background-color: rgba(0, 0, 0, 0.733);
+        border-style: solid;
+        padding: 10px;
+    }
+
+    .temp span.border, a
+    {
+        text-decoration: none;
+        color: white;
+    } 

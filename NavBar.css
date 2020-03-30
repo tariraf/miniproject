@@ -1,0 +1,54 @@
+    body
+    {
+        background-color: rgb(112, 70, 6);
+    }
+    ul
+    {
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+    li a
+    {
+        display: inline-block;
+        color: rgb(177, 88, 4);
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        font-size: 20pt;
+        text-align: center;
+        font-weight: 100;
+        font-family: 'Reenie Beanie';
+        font-weight: 900;
+    }
+    .navs
+    {
+        background-color: rgba(250, 248, 248, 0.623);
+    }
+    li a:hover
+    {
+        background-color: rgba(221, 176, 116);
+    }
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdowncontent
+    {
+        position: absolute;
+        display : none;
+        
+    }
+    .dropdowncontent a
+    {
+        font-size: 10pt;
+        font-family: 'Baloo Chettan 2', cursive;
+        color: ivory;
+        text-align: left;
+        display: block;
+    }
+    .dropdown:hover .dropdowncontent
+    {
+        display: block;
+    }
